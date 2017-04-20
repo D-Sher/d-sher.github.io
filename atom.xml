@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://d-sher.github.io/"/>
-  <updated>2017-04-20T09:17:43.020Z</updated>
+  <updated>2017-04-20T09:14:47.478Z</updated>
   <id>http://d-sher.github.io/</id>
   
   <author>
@@ -14,24 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>FILE</title>
-    <link href="http://d-sher.github.io/2017/04/20/FILE/"/>
-    <id>http://d-sher.github.io/2017/04/20/FILE/</id>
-    <published>2017-04-20T09:17:23.000Z</published>
-    <updated>2017-04-20T09:17:43.020Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="MAIN"><a href="/2017/04/20/FILE/#MAIN" class="headerlink" title="MAIN"></a>MAIN</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;MAIN&quot;&gt;&lt;a href=&quot;/2017/04/20/FILE/#MAIN&quot; class=&quot;headerlink&quot; title=&quot;MAIN&quot;&gt;&lt;/a&gt;MAIN&lt;/h2&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>用github建置Hexo開發部落格</title>
