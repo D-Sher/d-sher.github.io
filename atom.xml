@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://d-sher.github.io/"/>
-  <updated>2017-04-20T04:25:09.606Z</updated>
+  <updated>2017-04-20T04:35:24.000Z</updated>
   <id>http://d-sher.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://d-sher.github.io/2017/04/20/%E7%94%A8github%E5%BB%BA%E7%BD%AEHexo%E9%96%8B%E7%99%BC%E9%83%A8%E8%90%BD%E6%A0%BC/"/>
     <id>http://d-sher.github.io/2017/04/20/用github建置Hexo開發部落格/</id>
     <published>2017-04-20T04:21:19.000Z</published>
-    <updated>2017-04-20T04:25:09.606Z</updated>
+    <updated>2017-04-20T04:35:24.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="環境-前置"><a href="/2017/04/20/用github建置Hexo開發部落格/#環境-前置" class="headerlink" title="環境 (前置)"></a>環境 (前置)</h2><h3 id="安裝git"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝git" class="headerlink" title="安裝git"></a>安裝git</h3><p><a href="https://git-scm.com/" target="_blank" rel="external">git 官網下載最新版(winsows)</a></p>
 <h3 id="安裝node-js"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝node-js" class="headerlink" title="安裝node.js"></a>安裝node.js</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">nods.js 官網下載最新版(windows)</a></p>
@@ -51,14 +51,15 @@
 <h3 id="加入圖片套件"><a href="/2017/04/20/用github建置Hexo開發部落格/#加入圖片套件" class="headerlink" title="加入圖片套件"></a>加入圖片套件</h3><p>可以增加 一個圖片位置套件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-filter-pathfix --save</div></pre></td></tr></table></figure></p>
 <p>此套件在嵌於網站的資源(圖片 資料)擁有正確的路徑</p>
 <p>例如實際的位置  <code>source/_posts/用github建置Hexo開發部落格/1.png</code></p>
-<p>我們只要便可完成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![這是圖片](1.png)</div></pre></td></tr></table></figure></p>
-<figure class="image-bubble">
+<p>這邊記得要修改跟目錄的 config.yml 裡面的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">post_asset_folder: true</div></pre></td></tr></table></figure></p>
+<p>我們即可利用嵌入碼<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![這是圖片](1.png)</div></pre></td></tr></table></figure></p>
+<p>最後顯示<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
                     <img src="/2017/04/20/用github建置Hexo開發部落格/1.png" alt="範例圖片" title="">
                 </div>
                 <div class="image-caption">範例圖片</div>
-            </figure>
+            </figure></p>
 ]]></content>
     
     <summary type="html">
