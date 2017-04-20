@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://d-sher.github.io/"/>
-  <updated>2017-04-20T04:41:33.539Z</updated>
+  <updated>2017-04-20T09:14:47.478Z</updated>
   <id>http://d-sher.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://d-sher.github.io/2017/04/20/%E7%94%A8github%E5%BB%BA%E7%BD%AEHexo%E9%96%8B%E7%99%BC%E9%83%A8%E8%90%BD%E6%A0%BC/"/>
     <id>http://d-sher.github.io/2017/04/20/用github建置Hexo開發部落格/</id>
     <published>2017-04-20T04:21:19.000Z</published>
-    <updated>2017-04-20T04:41:33.539Z</updated>
+    <updated>2017-04-20T09:14:47.478Z</updated>
     
     <content type="html"><![CDATA[<h2 id="環境-前置"><a href="/2017/04/20/用github建置Hexo開發部落格/#環境-前置" class="headerlink" title="環境 (前置)"></a>環境 (前置)</h2><h3 id="安裝git"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝git" class="headerlink" title="安裝git"></a>安裝git</h3><p><a href="https://git-scm.com/" target="_blank" rel="external">git 官網下載最新版(winsows)</a></p>
 <h3 id="安裝node-js"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝node-js" class="headerlink" title="安裝node.js"></a>安裝node.js</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">nods.js 官網下載最新版(windows)</a></p>
@@ -46,7 +46,7 @@
 <h3 id="再次修改-config-yml-設定檔-最下面的deploy-改為"><a href="/2017/04/20/用github建置Hexo開發部落格/#再次修改-config-yml-設定檔-最下面的deploy-改為" class="headerlink" title="再次修改 config.yml 設定檔 最下面的deploy 改為"></a>再次修改 config.yml 設定檔 最下面的deploy 改為</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:D-Sher/d-sher.github.io.git(你的git ssh)</div><div class="line">  branch: master</div><div class="line">  message: update</div></pre></td></tr></table></figure>
 <h3 id="部屬到網站"><a href="/2017/04/20/用github建置Hexo開發部落格/#部屬到網站" class="headerlink" title="部屬到網站"></a>部屬到網站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure>
-<h2 id="使用Hexo-寫你的第一篇文章"><a href="/2017/04/20/用github建置Hexo開發部落格/#使用Hexo-寫你的第一篇文章" class="headerlink" title="使用Hexo 寫你的第一篇文章"></a>使用Hexo 寫你的第一篇文章</h2><h3 id="建立文章"><a href="/2017/04/20/用github建置Hexo開發部落格/#建立文章" class="headerlink" title="建立文章"></a>建立文章</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo n (文章名稱)</div></pre></td></tr></table></figure>
+<h2 id="使用Hexo-寫你的第一篇文章"><a href="/2017/04/20/用github建置Hexo開發部落格/#使用Hexo-寫你的第一篇文章" class="headerlink" title="使用Hexo 寫你的第一篇文章"></a>使用Hexo 寫你的第一篇文章</h2><h3 id="建立文章"><a href="/2017/04/20/用github建置Hexo開發部落格/#建立文章" class="headerlink" title="建立文章"></a>建立文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo n (文章名稱)</div></pre></td></tr></table></figure>
 <p>此時可在 <code>source/_posts/(文章名稱).md</code> 編輯 markdown 檔</p>
 <h3 id="加入圖片套件"><a href="/2017/04/20/用github建置Hexo開發部落格/#加入圖片套件" class="headerlink" title="加入圖片套件"></a>加入圖片套件</h3><p>可以增加 一個圖片位置套件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-filter-pathfix --save</div></pre></td></tr></table></figure></p>
 <p>此套件在嵌於網站的資源(圖片 資料)擁有正確的路徑</p>
@@ -60,6 +60,7 @@
                 </div>
                 <div class="image-caption">範例圖片</div>
             </figure></p>
+<h3 id="新增或編輯文件後-生成靜態檔案後部屬-網站即便更新"><a href="/2017/04/20/用github建置Hexo開發部落格/#新增或編輯文件後-生成靜態檔案後部屬-網站即便更新" class="headerlink" title="新增或編輯文件後 生成靜態檔案後部屬 網站即便更新"></a>新增或編輯文件後 生成靜態檔案後部屬 網站即便更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
