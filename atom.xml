@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://d-sher.github.io/"/>
-  <updated>2017-04-20T09:14:47.478Z</updated>
+  <updated>2017-04-24T07:27:23.294Z</updated>
   <id>http://d-sher.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://d-sher.github.io/2017/04/20/%E7%94%A8github%E5%BB%BA%E7%BD%AEHexo%E9%96%8B%E7%99%BC%E9%83%A8%E8%90%BD%E6%A0%BC/"/>
     <id>http://d-sher.github.io/2017/04/20/用github建置Hexo開發部落格/</id>
     <published>2017-04-20T04:21:19.000Z</published>
-    <updated>2017-04-20T09:14:47.478Z</updated>
+    <updated>2017-04-24T07:27:23.294Z</updated>
     
     <content type="html"><![CDATA[<h2 id="環境-前置"><a href="/2017/04/20/用github建置Hexo開發部落格/#環境-前置" class="headerlink" title="環境 (前置)"></a>環境 (前置)</h2><h3 id="安裝git"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝git" class="headerlink" title="安裝git"></a>安裝git</h3><p><a href="https://git-scm.com/" target="_blank" rel="external">git 官網下載最新版(winsows)</a></p>
 <h3 id="安裝node-js"><a href="/2017/04/20/用github建置Hexo開發部落格/#安裝node-js" class="headerlink" title="安裝node.js"></a>安裝node.js</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">nods.js 官網下載最新版(windows)</a></p>
@@ -69,6 +69,8 @@
     
     </summary>
     
+    
+      <category term="Hexo" scheme="http://d-sher.github.io/tags/Hexo/"/>
     
   </entry>
   
