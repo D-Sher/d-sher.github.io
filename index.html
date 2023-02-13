@@ -20,7 +20,8 @@
       var myViewerDiv = document.getElementById('MyViewerDiv');
       var viewer = new Autodesk.Viewing.Private.GuiViewer3D(myViewerDiv);
       var options = {
-          'document' : 'https://developer-autodesk.github.io/translated-models/dwfx-sample-house/f0224dd3-8767-45c1-ff99-5c9c881b9fee/0.svf'
+          'document' : './bimac/3D View/3d/3d.svf',
+          'env':'Local'
       };
       Autodesk.Viewing.Initializer(options, function() {
         viewer.start(options.document, options);
